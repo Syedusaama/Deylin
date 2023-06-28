@@ -1,7 +1,7 @@
 /*Main Css */
 
 ::selection {
-    background: #ff5e14;
+    background: #e9e0e8;
     color: #fff;
     text-shadow: none;
 }
@@ -23,7 +23,7 @@
 
 ::-webkit-scrollbar-thumb:vertical {
     border-radius: 10px;
-    background-color: #ff5e14;
+    background-color: #e9e0e8;
 }
 
 
@@ -53,7 +53,7 @@
 }
 
 body {
-    font-family: "Roboto";
+    font-family: 'Poppins', sans-serif;
     overflow-x: hidden;
     font-size: 16px;
     line-height: 1;
@@ -66,9 +66,18 @@ h3,
 h4,
 h5,
 h6 {
+    font-family: 'Poppins', sans-serif;
     display: block;
     font-weight: normal;
 }
+
+.fa, .fas {
+    font-family: "Font Awesome 5 Pro";
+    font-weight: 900;
+    color: #524f52;
+    padding-right:20px;
+}
+
 
 *:hover,
 *:focus,
@@ -92,7 +101,7 @@ input[type="submit"] {
 }
 
 a:hover {
-    color: #ff5e14;
+    color: #524f52;
 }
 
 span {
@@ -197,9 +206,9 @@ button {
 
 .para {}
 
-.highlighted {
+/* .highlighted {
     color: #ff5e14;
-}
+} */
 
 
 /* Custom Slick Css */
@@ -356,14 +365,14 @@ header {
 .menu li a {
     display: block;
     font-size: 16px;
-    color: #fff;
+    color: #524f52;
     text-transform: uppercase;
     font-weight: 600;
 }
 
 .menu li:hover a,
 .menu li.active a {
-    color: rgb(240, 90, 35);
+    color: #c795c3;
 }
 
 
@@ -449,6 +458,16 @@ ul.dropdown li a:hover {
     }
 }
 
+/* Header */
+
+.header-div{
+    width: 1500px;
+    margin: 0 auto;
+
+}
+/* Header */
+
+
 
 /* Main Banner CSS */
 
@@ -461,6 +480,35 @@ ul.dropdown li a:hover {
     align-items: center;
     position: relative;
 }
+
+
+
+
+
+/* footer */
+
+.footer-div{
+    width: 1500px;
+    margin: 0 auto;
+}
+
+/* footer */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media (max-width: 1440px) {}
 

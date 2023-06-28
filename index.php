@@ -10,7 +10,7 @@
 
 <body>
     <?php include("includes/header.php"); ?>
-    <div class="mainBanner" style="background-image:url(assets/images/banner/bg-banner.jpg); ">
+    <div class="mainBanner" style="background-image:url(assets/images/banner.png); ">
         <div class="container">
 
         </div>
