@@ -16,6 +16,21 @@
         </div>
     </div>
 
+    <section class="first-sec">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <ul>
+                        <li>
+                        <img src="img_snow_wide.jpg" alt="Snow" style="width:100%;">
+                        <div class="centered">Centered</div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <?php include("includes/footer.php"); ?>
     <?php include("includes/scripts.php"); ?>
 
